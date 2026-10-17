@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的技术博客</title>
+  <meta name="description" content="分享前端开发、编程学习与技术思考的个人博客">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">⌘ 我的技术博客</a>
+      <nav class="site-nav">
+        <a href="index.html" class="active">首页</a>
+        <a href="#about">关于</a>
+        <button class="theme-toggle" aria-label="切换主题">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>你好，我是 <span class="highlight">一位开发者</span> 👋</h1>
+      <p>记录学习与思考，分享前端开发、编程语言与工程实践。</p>
+    </section>
+
+    <section class="toolbar">
+      <input type="search" id="search-input" placeholder="搜索文章…" aria-label="搜索文章">
+    </section>
+
+    <section id="tag-bar" class="tag-bar" aria-label="按标签筛选"></section>
+
+    <section id="posts-grid" class="posts-grid"></section>
+  </main>
+
+  <footer class="site-footer" id="about">
+    <div class="container">
+      <p>© 2026 我的技术博客 · 使用 HTML5 + CSS + JavaScript 构建，无需任何框架</p>
+    </div>
+  </footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
